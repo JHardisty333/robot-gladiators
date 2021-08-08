@@ -50,7 +50,7 @@ var fight = function (enemy) {
     }
 
     // if player choses to fight, then fight
-    if (promptFight === "fight" || promptFight === "FIGHT") {
+    if (promptFight === "fight") {
       // generate random damage value based on player's attack power
       var damage = randomNumber(playerInfo.attack - 3, playerInfo.attack);
 
